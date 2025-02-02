@@ -15,7 +15,8 @@ import streamlit as st
 api_key = DuneClient(st.secrets["DUNE_API_KEY"])
 
 def get_dune_client():
-    return DuneClient(api_key)
+    return DuneClient(st.secrets["DUNE_API_KEY"])
+
 
 def get_timezone_activity_plot():
     """
