@@ -86,20 +86,6 @@ Technical Implementation
 -   Supporting libraries: Pandas for data manipulation
 -   Dashboard: Streamlit for web interface
 
-### Dashboard Architecture
-
-Copy
-
-`polymarket_dashboard/
-├── app.py                      # Main Streamlit application
-├── plots.py                    # Visualization functions
-├── requirements.txt            # Dependencies
-├── analyses/                   # Markdown analysis files
-    ├── timezone_activity.md
-    ├── market_attraction.md
-    ├── user_activity_duration.md
-    ├── market_growth.md
-    └── retention_changes.md`
 
 Development Environment
 -----------------------
@@ -118,14 +104,3 @@ Key Features
 4.  Comprehensive market categorization
 5.  Detailed markdown analyses
 6.  User-friendly dashboard interface
-
-Future Improvements
--------------------
-
-1.  Automated data refresh scheduling
-2.  Enhanced market categorization algorithm
-3.  Additional visualization options
-4.  Performance optimization for large datasets
-5.  Extended time period analysis
-
-This documentation provides a comprehensive overview of the technical approach taken for the Polymarket data analysis project, from initial data source evaluation through final implementation and visualization.

@@ -1,9 +1,17 @@
 from dune_client.client import DuneClient
 import plotly.express as px
 import pandas as pd
+import os
+from dotenv import load_dotenv
+
+# Load .env file
+load_dotenv()
+
+# Access environment variables
+api_key = os.getenv("DUNE_API_KEY")
 
 def get_dune_client():
-    return DuneClient("GbGU6V08tctCuQ8CIO9QSn98yU5FR2s5")
+    return DuneClient(api_key)
 
 def get_timezone_activity_plot():
     """
