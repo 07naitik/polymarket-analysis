@@ -66,7 +66,7 @@ Installation
 
 `streamlit run app.py`
 
-Edit
+
 
 Key Questions Answered
 ----------------------
