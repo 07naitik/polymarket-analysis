@@ -91,6 +91,71 @@ Key Questions Answered
     -   Comparative retention analysis
     -   Pre vs. post-election user behavior
     -   Changes in engagement patterns
+  
+Design Questions
+================
+
+How would you track user retention long-term?
+---------------------------------------------
+
+Based on my analysis of the trading data, I would suggest:
+
+1.  **Daily Active Users Tracking**
+    -   Track how often users come back to trade
+    -   Look at their trading frequency over time
+    -   See if they're exploring different market categories
+2.  **Simple Retention Metrics**
+    -   Count how many users return after their first trade
+    -   See how long users typically stay active
+    -   Check if certain first trades lead to better retention
+3.  **User Groups**
+    -   Group users based on when they joined
+    -   Compare how different groups behave
+    -   See which groups stick around longer
+
+The key is keeping it simple but effective - focus on understanding basic patterns in how users interact with the platform.
+
+What metrics would you use to measure market health?
+----------------------------------------------------
+
+From what I've learned analyzing the data:
+
+1.  **Trading Activity**
+    -   Daily trading volume
+    -   Number of active traders
+    -   How often trades happen
+2.  **Market Interest**
+    -   How many new users join each market
+    -   Which markets attract repeat traders
+    -   Whether users stay in one market or explore others
+3.  **Basic Performance**
+    -   How quickly markets get resolved
+    -   Whether traders come back to similar markets
+    -   If markets maintain steady activity
+
+I think these basic metrics would give a good picture of market health without overcomplicating things.
+
+How could we improve new user onboarding based on the data?
+-----------------------------------------------------------
+
+Looking at the patterns in our user data, I'd suggest:
+
+1.  **Start Simple**
+    -   Guide new users to popular, straightforward markets first
+    -   Show them markets where other new users have had success
+    -   Keep the initial experience uncomplicated
+2.  **Learn from Success**
+    -   Look at what successful users did when they started
+    -   Use that to suggest first markets for new users
+    -   Help them start with reasonable trade sizes
+3.  **Show Progress**
+    -   Let users know how they're doing compared to others
+    -   Suggest new markets as they get more comfortable
+    -   Give them tips based on what worked for similar users
+
+The goal would be to make the first experience positive and build confidence gradually. Nothing too complex - just helpful guidance based on what we see in the data.
+
+These suggestions come from my analysis of user behavior in the data we have. I tried to focus on practical, data-driven improvements that would be realistic to implement.
 
 
 Contact
