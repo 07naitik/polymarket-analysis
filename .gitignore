@@ -13,4 +13,4 @@ venv/
 .DS_Store
 
 # API Keys
-config.py
+config.py.streamlit/secrets.toml

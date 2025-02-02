@@ -10,6 +10,10 @@ load_dotenv()
 # Access environment variables
 api_key = os.getenv("DUNE_API_KEY")
 
+
+import streamlit as st
+api_key = DuneClient(st.secrets["DUNE_API_KEY"])
+
 def get_dune_client():
     return DuneClient(api_key)
 
